@@ -1,4 +1,4 @@
-<h1><a href="#">Brick Breaker Game</a></h1>
+<h1><a href="https://adamfeher3.github.io/brick_breaker_game/">Brick Breaker Game</a></h1>
 <p>
   A simple and fun <b>brick breaker</b> game built with HTML, CSS and JavaScript<br/>
   Control the paddle, bounce the ball, and break all the bricks!
