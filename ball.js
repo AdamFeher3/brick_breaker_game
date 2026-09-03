@@ -22,8 +22,20 @@ function updateBall(dt) {
     ball.y += ball.sy * dt;
 
     // BALL COLLISION
-    if ( ball.x < 0 || ball.x + ball.size > canvas.width ) ball.sx *= -1;
-    if ( ball.y < 0 ) ball.sy *= -1;
+    if ( ball.x < 0 || ball.x + ball.size > canvas.width ) {
+
+        ball.sx *= -1;
+
+        // BALL HIT WALL SOUND EFFECT
+        ballSound();
+    }
+    else if ( ball.y < 0 ) {
+
+        ball.sy *= -1;
+
+        // BALL HIT WALL SOUND EFFECT
+        ballSound();
+    }
 
     // BALL FALL DOWN
     if ( ball.y > canvas.height ) loseLive();

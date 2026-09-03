@@ -40,6 +40,9 @@ function updatePaddle(dt) {
         ball.sy = -Math.abs(ball.sy);
 
         ball.y = paddle.y - ball.size;
+
+        // BALL HIT PADDLE SOUND EFFECT
+        paddleSound();
     }
 }
 

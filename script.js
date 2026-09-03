@@ -7,6 +7,10 @@ const lives = document.getElementsByClassName("lv");
 const gameoverScreen = document.getElementById("gameover");
 const restartBtn = document.getElementById("restart");
 
+const btns = [
+    startBtn, restartBtn
+];
+
 // CANVAS
 /** @type {HTMLCanvasElement} */
 const canvas = document.getElementById("canvas");

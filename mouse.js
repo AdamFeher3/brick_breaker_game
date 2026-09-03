@@ -6,7 +6,11 @@ document.body.addEventListener("pointerdown", () => {
     
     if ( game.state !== PLAY ) return;
 
-    if ( !ball.move ) ball.move = true;
+    if ( !ball.move ) {
+        
+        ball.move = true;
+        paddleSound();
+    }
 
     hold = true;
 });

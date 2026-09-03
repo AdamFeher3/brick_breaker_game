@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     cursor: default;
-    font-family: cursive;
+    font-family: "Share Tech Mono";
     image-rendering: pixelated;
     user-select: none;
     touch-action: none;
@@ -73,6 +73,7 @@ body {
     cursor: pointer;
     background-color: white;
     color: black;
+    font-weight: bolder;
 }
 
 #canvas {

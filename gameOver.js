@@ -5,8 +5,13 @@ function gameOver() {
     game.GL = null;
 
     setTimeout(() => {
-        if ( game.state === GO )
+        if ( game.state === GO ) {
+
             gameoverScreen.style.display = "grid";
+
+            // PLAY GAME OVER SOUND EFFECT
+            gameoverSound();
+        }
     }, 500);
 }
 

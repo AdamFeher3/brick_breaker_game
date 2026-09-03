@@ -129,6 +129,9 @@ function updateBrick(dt) {
                 brick[j][i].broken = true;
                 remain--;
 
+                // BREAK BRICK SOUND EFFECT
+                brickSound();
+
                 // ADD SCORE
                 addScore();
 

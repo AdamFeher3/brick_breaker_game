@@ -10,7 +10,11 @@ document.addEventListener("keydown", (e) => {
     if ( key === "KeyD" || key === "ArrowRight" ) paddle.right = true;
 
     // START BALL
-    if ( key === "Space" ) if ( !ball.move ) ball.move = true;
+    if ( key === "Space" ) if ( !ball.move ) {
+
+        ball.move = true;
+        paddleSound();
+    }
 });
 
 document.addEventListener("keyup", (e) => {
