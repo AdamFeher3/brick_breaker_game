@@ -14,3 +14,6 @@
   <b>Tap the screen</b> to start the ball<br/>
   <b>Swipe from side to side</b> to move the paddle
 </p>
+<h2>Game</h2>
+<img width="1280" height="720" alt="img1" src="https://github.com/user-attachments/assets/bd68f40e-1c21-4623-ad4a-354e8e3b0cd0" />
+<img width="1280" height="720" alt="img2" src="https://github.com/user-attachments/assets/7155ce82-18b1-4dd0-b3f5-0629767ec33b" />
