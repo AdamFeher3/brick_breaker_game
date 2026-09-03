@@ -28,12 +28,14 @@ function paddleSound() {
 
 function ballSound() {
     
+    ballAudio.pause();
     ballAudio.currentTime = 0.1;
     ballAudio.play();
 }
 
 function brickSound() {
     
+    brickAudio.pause();
     brickAudio.volume = 0.3;
     brickAudio.currentTime = 0.2;
     brickAudio.play();
