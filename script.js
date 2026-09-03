@@ -76,7 +76,7 @@ function update(dt) {
 function draw() {
 
     g.clearRect(0, 0, canvas.width, canvas.height);
-
+    
     drawBall();
     drawBrick();
     drawPaddle();

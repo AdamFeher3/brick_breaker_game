@@ -42,7 +42,7 @@ function updateBall(dt) {
 }
 
 function drawBall() {
-
+    
     // DRAW BALL
     g.fillStyle = "white";
     g.beginPath();

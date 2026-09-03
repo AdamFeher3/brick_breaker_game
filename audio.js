@@ -22,6 +22,7 @@ for ( let btn of btns ) {
 function paddleSound() {
 
     paddleAudio.pause();
+    paddleAudio.volume = 0.4;
     paddleAudio.currentTime = 0.1;
     paddleAudio.play();
 }
@@ -29,6 +30,7 @@ function paddleSound() {
 function ballSound() {
     
     ballAudio.pause();
+    ballAudio.volume = 0.3;
     ballAudio.currentTime = 0.1;
     ballAudio.play();
 }
@@ -36,7 +38,7 @@ function ballSound() {
 function brickSound() {
     
     brickAudio.pause();
-    brickAudio.volume = 0.3;
+    brickAudio.volume = 0.2;
     brickAudio.currentTime = 0.2;
     brickAudio.play();
 }
@@ -44,7 +46,7 @@ function brickSound() {
 function healthSound() {
     
     healthAudio.pause();
-    healthAudio.volume = 0.4;
+    healthAudio.volume = 0.3;
     healthAudio.currentTime = 0.1;
     healthAudio.play();
 }
