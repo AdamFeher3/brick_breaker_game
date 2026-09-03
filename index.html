@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brick Breaker Game</title>
+</head>
+<body>
+    <main id="game">
+        <div id="menu">
+            <p>Brick<br/>Breaker<br/> Game</p>
+            <button type="button" id="start">START</button>
+        </div>
+        <div id="gameplay">
+            <div id="stat">
+                <div id="lives">
+                    <div class="lv"></div>
+                    <div class="lv"></div>
+                    <div class="lv"></div>
+                </div>
+                <div id="score">SCORE: 0</div>
+                <div id="level">LEVEL: 1</div>
+            </div>
+            <canvas id="canvas"></canvas>
+            <div id="gameover">
+                <p>GAME OVER</p>
+                <button type="button" id="restart">RESTART</button>
+            </div>
+        </div>
+    </main>
+    <script src="score.js"></script>
+    <script src="health.js"></script>
+    <script src="key.js"></script>
+    <script src="paddle.js"></script>
+    <script src="ball.js"></script>
+    <script src="brick.js"></script>
+    <script src="gameLoop.js"></script>
+    <script src="script.js"></script>
+    <script src="mouse.js"></script>
+    <script src="gameOver.js"></script>
+</body>
+</html>

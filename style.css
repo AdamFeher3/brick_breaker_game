@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: cursive;
+    image-rendering: pixelated;
+    user-select: none;
+    touch-action: none;
+}
+
+body {
+    background-color: rgb(30,30,30);
+    overflow: hidden;
+}
+
+#game {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+}
+
+#menu,
+#gameplay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-content: center;
+    display: none;
+}
+
+#menu > p,
+#gameover > p {
+    color: white;
+    text-align: center;
+}
+
+#menu > p {
+    font-size: 10vmin;
+    text-shadow: -1vmin 1vmin 0 black;
+}
+
+#gameover > p {
+    font-size: 8vmin;
+    text-shadow: -0.6vmin 0.6vmin 0 black;
+}
+
+#start,
+#restart {
+    color: white;
+    background: none;
+    border: 0.4vmin solid white;
+    padding: 2vmin;
+    margin-top: 8vmin;
+}
+
+#start {
+    font-size: 5vmin;
+    box-shadow: -1vmin 1vmin 0 black;
+}
+
+#restart {
+    font-size: 3vmin;
+    box-shadow: -0.8vmin 0.8vmin 0 black;
+}
+
+#start:hover,
+#restart:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#canvas {
+    height: 70vmin;
+    aspect-ratio: 1/1;
+    border: 1vmin solid white;
+    box-shadow: -1vmin 1vmin 3vmin rgba(0,0,0,0.6);
+}
+
+#stat {
+    position: relative;
+    width: 70vmin;
+    height: 12vmin;
+    border: 1vmin solid white;
+    box-shadow: -1vmin 1vmin 3vmin rgba(0,0,0,0.6);
+    margin-bottom: 4vmin;
+}
+
+#lives,
+#level,
+#score {
+    position: relative;
+    float: left;
+    height: 100%;
+    align-content: center;
+}
+
+#lives {
+    width: 20%;
+    border-right: 0.4vmin solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lv {
+    position: relative;
+    float: left;
+    height: 20%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 50%;
+    border: 0.4vmin solid white;
+}
+
+#level,
+#score {
+    color: white;
+    font-size: 3vmin;
+    width: 30%;
+    margin-left: 5%;
+    text-shadow: -0.4vmin 0.4vmin 0 black;
+}
+
+#gameover {
+    position: absolute;
+    height: 70vmin;
+    aspect-ratio: 1/1;
+    background-color: rgb(30,30,30);
+    margin-top: 18vmin;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    display: none;
+}
