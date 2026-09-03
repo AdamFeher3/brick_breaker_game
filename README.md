@@ -15,5 +15,5 @@
   <b>Swipe from side to side</b> to move the paddle
 </p>
 <h2>Game</h2>
-<img width="1280" height="720" alt="img1" src="https://github.com/user-attachments/assets/bd68f40e-1c21-4623-ad4a-354e8e3b0cd0" />
-<img width="1280" height="720" alt="img2" src="https://github.com/user-attachments/assets/7155ce82-18b1-4dd0-b3f5-0629767ec33b" />
+<img width="1280" height="720" alt="img1" src="https://github.com/user-attachments/assets/15132b9c-2fe8-489a-82fc-804ad97d2602" />
+<img width="1280" height="720" alt="img2" src="https://github.com/user-attachments/assets/7ba7636a-a67f-41ca-9446-8b61d7bb7496" />
