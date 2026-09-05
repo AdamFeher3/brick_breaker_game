@@ -1,5 +1,9 @@
-// MOUSE CONTROLS
-
+/**
+ * MOUSE
+ * AND
+ * MOBILE
+ * CONTROLS
+ */
 let hold = false;
 
 document.body.addEventListener("pointerdown", () => { 
@@ -27,5 +31,6 @@ document.body.addEventListener("pointermove", (e) => {
 });
 
 document.body.addEventListener("pointerup", () => { hold = false; });
+document.body.addEventListener("pointercancel", () => { hold = false; });
 
 document.body.addEventListener("contextmenu", (e) => { e.preventDefault(); });
